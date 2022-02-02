@@ -1,0 +1,28 @@
+.community {
+    padding-bottom: 2rem;
+
+    &__com-image {
+        height: 50vh;
+        width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    p {
+        margin-block-end: 2rem;
+    }
+
+    }
+
+    &__com {
+        width: 80%;
+        text-align: center;
+        
+        .text-secondary {
+           padding-bottom: 1rem;
+           color: white;
+        }
+    }
+}
